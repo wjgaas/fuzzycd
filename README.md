@@ -10,6 +10,7 @@ The project is built under code::blocks, it runs on the Linux.
 
 we need two steps to install it.
 [in the ./install dir]
+
 step 1:
 ./install.sh
 
