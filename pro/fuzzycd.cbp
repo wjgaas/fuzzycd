@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="fuzzycd" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/fuzzycd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/fuzzycd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../src/config.h" />
+		<Unit filename="../src/filesupport.h" />
+		<Unit filename="../src/fuzzycd.cpp" />
+		<Unit filename="../src/fuzzyfilter.cpp" />
+		<Unit filename="../src/fuzzyfilter.h" />
+		<Unit filename="../src/history.h" />
+		<Unit filename="../src/jsoncpp/json/autolink.h" />
+		<Unit filename="../src/jsoncpp/json/config.h" />
+		<Unit filename="../src/jsoncpp/json/features.h" />
+		<Unit filename="../src/jsoncpp/json/forwards.h" />
+		<Unit filename="../src/jsoncpp/json/json.h" />
+		<Unit filename="../src/jsoncpp/json/reader.h" />
+		<Unit filename="../src/jsoncpp/json/value.h" />
+		<Unit filename="../src/jsoncpp/json/writer.h" />
+		<Unit filename="../src/jsoncpp/json_batchallocator.h" />
+		<Unit filename="../src/jsoncpp/json_reader.cpp" />
+		<Unit filename="../src/jsoncpp/json_value.cpp" />
+		<Unit filename="../src/jsoncpp/json_writer.cpp" />
+		<Unit filename="../src/panel.cpp" />
+		<Unit filename="../src/panel.h" />
+		<Unit filename="../src/termbox/bytebuffer.inl" />
+		<Unit filename="../src/termbox/input.inl" />
+		<Unit filename="../src/termbox/term.inl" />
+		<Unit filename="../src/termbox/termbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/termbox/termbox.h" />
+		<Unit filename="../src/termbox/utf8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

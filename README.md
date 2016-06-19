@@ -9,6 +9,7 @@ fuzzycd can hlep to use cd command in a fuzzy way if we do not remember the dire
 The project is built under code::blocks, it runs on the Linux.
 
 we need two steps to install it.
+
 [in the ./install dir]
 
 step 1:
@@ -25,12 +26,19 @@ we can choose one of them to cd or exit directly.
 
 ### KEY
 F1		: help
+
 Esc		: exit
+
 CTRL-X	: exit
+
 Tab 	: next item
+
 Up 		: select up item
+
 Down 	: select down item
+
 Enter	: select and 'cd'
+
 
 ### CONFIG
 
@@ -38,9 +46,15 @@ config file is ${INSTALL_PATH}/fuzzycd.config,
 we use json to store the root path that we want to find.
 
 example:
+
 {
+
 	"FuzzyPath": [
+	
 		"/home",
+		
 		"/opt"
+		
 	]
+	
 }
